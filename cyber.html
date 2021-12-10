@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 2| Group Name</title>
+        <link rel="stylesheet" type="text/css" href="style/styleittech.css">
+        <link rel="stylesheet" href ="https://fonts.google.com/specimen/Sacramento">
+        <link rel="scripsheet" href ="profile.java">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="header">
+            <h2>Team Profile</h2>
+        </div>
+        <div id="nav">
+            <a href="homepage.html" class="logo"><img src="image/icons8-gingerbread-house-96.png"></a>
+            <ul>
+                <li><a href="dong.html" >TEAM PROFILE</a></li>
+                <li><a href="homepage.html">TOOLS</a></li>
+                <li><a href="itwork.html">IT WORK</a></li>
+                <li><a href="ittech.html" class= "active">IT TECHNOLOGIES</a></li>
+                <li><a href="project.html">PROJECT IDEAS</a></li>
+            </ul>
+        </div>
+        <div class="row">
+            <div id="side">
+                <h2 style="font-size: 50px;">IT Technologies</h2>
+                <ul>
+                    <li><a href="ittech.html" >AI</a></li><br>
+                    <li><a href="cloud.html">Cloud computing</a></li><br>
+                    <li><a href="cyber.html" class="active">Cybersecurity and privacy</a></li><br>
+                    <li><a href="blockchain.html">Blockchain and cryptocurrencies</a></li><br>
+                </ul>
+            </div>
+            <div class="main">
+                <h2 style="font-size: 40px; text-align: center;">Cybersecurity and privacy</h2>
+                <p style="text-align: right;"><em>Author: Mai Chi Nghi</em></p>
+                <img src="image/download (1).jpg" alt="AI" width="100%" height="auto">
+                <h3 style="font-size: 36px;">What does it do?</h3>
+                <p style="font-size: 24px;">Updating... </p>
+                <h3 style="font-size: 36px;">What is the likely impact? </h3>
+                <p style="font-size: 24px;">Updating...</p>
+                <h3 style="font-size: 36px;">How will this affect you? </h3>
+                <p style="font-size: 24px;">Updating</p><br>
+                <h3 style="font-size: 36px;">Reference</h3>
+                <p style="font-size: 24px;">Comming soon<br>
+                </p><br>                
+            </div>
+            <script>// When the user scrolls the page, execute myFunction
+                window.onscroll = function() {myFunction()};
+                
+                // Get the navbar
+                var nav = document.getElementById("nav");
+                
+                // Get the offset position of the navbar
+                var sticky = nav.offsetTop;
+                
+                // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+                function myFunction() {
+                  if (window.pageYOffset >= sticky) {
+                    nav.classList.add("sticky")
+                  } else {
+                    nav.classList.remove("sticky");
+                  }
+                }
+            </script>
+        </div>
+    </body>
+</html>
