@@ -98,10 +98,10 @@ body
     -ms-flex: 10%; /* IE10 */
     flex: 10%;
     background-color: #C5A079;
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
     font-size: 24px;
-    margin-left: 10px;
+    /* margin-left: 5px; */
     /* border-radius: 20% 0 0 20% ; */
   }
   
